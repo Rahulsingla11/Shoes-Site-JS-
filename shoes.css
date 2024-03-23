@@ -1,0 +1,536 @@
+/* Jay shree Ram */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-color: lightgray     ; */
+}
+
+.nav-bar {
+    display: flex;
+    margin: 10px 15px 10px 25px;
+    position: sticky;
+    /* overflow: hidden; */
+    background-color: white;
+    top: 0px;
+}
+
+.hello {
+    font-size: 30px;
+    margin-right: 5px;
+}
+
+.logo {
+    font-size: 1.2em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    margin-left: 35vw;
+    float: right;
+    justify-content: center;
+}
+
+#nav-1 li {
+    list-style: none;
+    padding: 10px;
+    display: inline-block;
+    text-decoration: none;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+
+li a:hover {
+    border-bottom: 3px solid black;
+    border-radius: 2px;
+
+}
+
+.bi-bag,
+.bi-cart4 {
+    font-weight: bold;
+    font-size: 1.1em;
+}
+
+#part2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1 {
+    height: 360px;
+    width: 450px;
+    margin-top: 25px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    background-image: url(https://images.squarespace-cdn.com/content/v1/5cd2555994d71a16b3b6ffc1/1625706490108-L1ME3QHSYSEV53Z0AYRK/unsplash-image-tdAxjwIiW7s.jpg?format=1500w);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* transform: scale(11.1em); */
+}
+
+.img1-h1 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-top: 20vh; */
+    font-size: 2.5em;
+    margin:45px 2px 2px 2px;
+}
+
+.shop-now {
+    text-decoration: none;
+    color: black;
+    margin: 35vh 2vw 5vh 2vw;
+    padding: 0px;
+    border-bottom: 2px solid black;
+}
+
+.part2-2 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+}
+
+.img2 {
+    height: 170px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    width: 500px;
+    border-radius: 5px;
+    background-image: url(https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&q=80&w=1000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8fA%3D%3D);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 5px;
+}
+
+.img2-h1 {
+    color: white;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-top: 20vh; */
+    font-size: 2.5em;
+    margin: 12vh 2vw 2vh 2vw;
+}
+
+.shop-now1 {
+    text-decoration: none;
+    color: white;
+    border-bottom:2px solid white ;
+    margin: 35vh 2vw 5vh 2vw;
+    padding: 0px;
+}
+
+.img3 {
+    height: 170px;
+    margin-left: 25px;
+    width: 500px;
+    border-radius: 5px;
+    background-image: url(http://findsrare.com/images/products/22.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:5px;
+    background-origin: border-box;
+}
+
+.img12-h1 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-top: 20vh; */
+    font-size: 2.5em;
+    margin: 10vh 2vw 2vh 2vw;
+}
+
+.shop-now {
+    text-decoration: none;
+    color: black;
+
+    padding: 0px;
+}
+
+.part3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 45px;
+}
+
+.ads {
+    width: 70vw;
+    display: flex;
+    box-shadow: 0px 0px 5px black;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSma4OnXaA6VOttnLjEJWUsjWt9HrmYDZdMRw&usqp=CAU);
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.d10 {
+    margin-right: 25vw;
+}
+
+.h22 {
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.3em;
+}
+
+.h33 {
+    color: black;
+    text-shadow: 0px 0px 5px black;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 0.8em;
+}
+
+.Email {
+    background-color: black;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.me {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px black;
+    padding: 20px;
+    font-weight: normal;
+}
+
+.Email:hover {
+    background-color: black;
+}
+
+.me:hover {
+    color: white;
+}
+
+.part4 {
+    display: flex;
+    margin-top: 45px;
+    align-items: center;
+    justify-content: center;
+}
+
+.top {
+    display: flex;
+}
+
+.h333 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    /* position: absolute; */
+    margin-right: 55vw;
+}
+
+.view-all {
+    text-decoration: none;
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.part4-bottom {
+    display: flex;
+    margin-top: 25px;
+    /* margin-right: 25px; */
+    justify-content: center;
+    align-items: center;
+}
+
+.bottom {
+    margin-left: 15px;
+}
+
+.shoes-5 {
+    width: 200px;
+    height: 200px;
+}
+
+.for {
+    font-weight: normal;
+    font-size: 15px;
+    display: inline-block;
+}
+
+.money {
+    /* font-weight: normal; */
+    font-size: 15px;
+    margin-left: 20px;
+    display: inline-block;
+}
+.part5{
+    display: flex;
+    margin-top: 65px;
+    align-items: center;
+    justify-content: center;
+}
+.img18 {
+    height: 300px;
+    width: 490px;
+    margin-top: 25px;
+    /* border: 2px solid black; */
+    margin-right: 25px;
+    border-radius: 5px;
+    background-image: url(https://ogasplanet.com/wp-content/uploads/2020/04/neve-apparel-07-600x600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img1-h1 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-top: 20vh; */
+    font-size: 2.5em;
+    margin: 25vh 2vw 2vh 2vw;
+}
+
+.shop-now {
+    text-decoration: none;
+    color: black;
+    margin: 35vh 2vw 5vh 2vw;
+    padding: 0px;
+}
+.img19 {
+    height: 300px;
+    width: 490px;
+    margin-top: 25px;
+    /* border: 2px solid black; */
+    margin-right: 25px;
+    border-radius: 5px;
+    background-image: url(https://i.ebayimg.com/images/g/o8UAAOSwWrFjY1h-/s-l1600.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.img14-h1 {
+    color: black;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* margin-top: 20vh; */
+    font-size: 2.5em;
+    margin: 30vh 2vw 2vh 2vw;
+}
+
+.shop-now {
+    text-decoration: none;
+    color: black;
+    margin: 35vh 2vw 5vh 2vw;
+    padding: 0px;
+}
+.part6{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    margin-top:20vh;
+}
+.info-ul{
+    list-style: none;
+    margin-top: 10px;
+    margin: 10px 35px;
+}
+.info-list a{
+    font-weight: normal;
+    font-size: 15px;
+}
+.h2222{
+    font-size: 20px;
+    margin: 0px 35px;
+}
+footer{
+    display: flex;
+    align-items: center;
+    margin-top: 45px;
+    justify-content: center;
+}
+.footer{
+    font-weight: normal;
+    margin-right: 5px;
+}
+.h2{
+    font-size: 20px;
+}
+.hide{
+    display: none;
+    /* margin-top: -89px; */
+
+}
+ .hide input {
+    display: none;
+}
+
+.left,.right {
+    /* float: left; */
+    height: 8vh;
+    /* transition: all 0.2s; */
+}
+
+.left {
+    width: 0%;
+    overflow: hidden;
+    height: 8vh;
+    /* background-color:rgb(4, 4, 77); */
+}
+
+.right {
+    width:100%;
+    /* overflow: hidden; */
+    /* background-color:rgb(4, 4, 77); */
+}
+
+input:checked ~.left {
+    width: 100%;
+    height: 20vh;
+    /* transition: all 0.1s; */
+}
+
+input:checked ~.right {
+    width: 0%;
+    height: 0vh;
+}
+
+.bi {
+    font-size: 20px;
+    color:black;
+    cursor: pointer;
+}
+
+.bi-x {
+    display: none;
+    font-size: 30px;
+}
+.bi-list{
+    font-size: 30px;
+}
+input:checked~.left .bi-x {
+    display: inline-block;
+
+}
+
+input:checked~.right .bi-list  {
+    display: none;
+}
+input:checked~.right .logo  {
+    display: none;
+}
+.nav52 .lii{
+    list-style: none;
+    padding: 5px;
+}
+.nav52{
+    display: flex;
+    /* margin-top: 50px; */
+    display:inline-flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    /* margin-left: 35px; */
+}
+.lii a{
+}
+.logo{
+    float: right;
+    margin-top: 5px;
+    color: black;
+    margin-right: 19px;
+    font-size: 1.1em;
+}
+@media screen and (max-width:1250px) {
+    .nav {
+        margin-left: 200px;
+      
+    }
+    .img1-h1 ,.img14-h1 {
+        margin:105px 2px 2px 20px;
+    }
+    .img2-h1 , .img12-h1 {
+        margin: 42px 2px 2px  20px ;
+    }
+
+}
+@media screen and (max-width:1000px) {
+        .nav{
+            margin-left: 100px;
+        }
+        .img85{
+            display: none;
+        }
+        #part2{
+            flex-direction: column;
+        }
+        .img1{
+            /* margin-left: 35px; */
+        }
+        .img1 , .img2,.img3 ,.img18,.img19{
+            width:90vw ;
+            margin: 10px auto;
+        }
+        .part5{
+            flex-direction: column;
+        }
+}
+@media screen and (max-width:880px) {
+        .nav{
+            margin-left: 10px;
+        }
+        .img888{
+            display: none;
+        }
+}
+@media screen and (max-width:575px) {
+        .nav{
+            margin-left: 10px;
+        }
+        .img888 , .img85{
+            display: inline-block;
+        }
+        .part4-bottom{
+             flex-wrap:wrap-reverse;
+        }
+        .part6{
+            flex-wrap: wrap-reverse;
+        }
+        .h333{
+            margin-right: 15vw;
+        }
+        .d10{
+            font-size: 0.5em;
+        }
+        .me{
+            font-size: 0.8em;
+            padding: 2px;
+            /* margin-right: 5px; */
+
+        }
+        .Email{
+            margin-right: 5px;
+        }
+        .nav-bar{
+            display: none;
+        }
+        .hide{
+            display: block;
+            width: 100%;
+        }
+}
